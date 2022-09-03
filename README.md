@@ -2,10 +2,10 @@
 
 # Simple FastAPI api generate data and put to Postgres DB
 ## URLs:
-/
-/generate_user
-/generate_page
-/generate_numner
+/  
+/generate_user  
+/generate_page  
+/generate_numner  
 
 ## Run containers
 ```docker-compose up```  
