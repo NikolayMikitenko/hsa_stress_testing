@@ -11,12 +11,12 @@
 ```docker-compose up```  
 
 ## Results
-#concurrent | #availability | #avg response time, secs | #throughput, MB/sec |
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-10 | 100% | 0.08 | 0.01 |
-25 | 100% | 0.27 | 0.01 |
-50 | 100% | 0.45 | 0.01 |
-100 | 100% | 0.86 | 0.01 |
+#concurrent | #availability | #avg response time, secs | #throughput, MB/sec |  
+--- | --- | --- | --- |  
+10 | 100% | 0.08 | 0.01 |  
+25 | 100% | 0.27 | 0.01 |  
+50 | 100% | 0.45 | 0.01 |  
+100 | 100% | 0.86 | 0.01 |  
 
 
 ## Siege commands
