@@ -1,0 +1,4 @@
+http://localhost
+http://localhost/generate_user
+http://localhost/generate_page
+http://localhost/generate_number POST

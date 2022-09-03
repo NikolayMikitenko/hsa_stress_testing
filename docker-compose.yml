@@ -1,0 +1,22 @@
+version: '3.6'
+services:
+  postgres:
+    container_name: hsa_stress_db
+    image: postgres:13
+    environment:
+      POSTGRES_DB: "db"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+    volumes:
+     #- .:/docker-entrypoint-initdb.d
+     - ./postgres/data:/var/lib/postgresql/data
+    ports: 
+      - 5432:5432
+
+  api:
+    container_name: hsa_stress_app
+    build:
+      context: app
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
