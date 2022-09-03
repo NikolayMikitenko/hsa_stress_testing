@@ -11,7 +11,7 @@
 ```docker-compose up```  
 
 ## Results
-#concurrent | #availability | #avg response time, secs | #throughput, MB/sec |  
+concurrent | availability | avg response time, secs | throughput, MB/sec |  
 --- | --- | --- | --- |  
 10 | 100% | 0.08 | 0.01 |  
 25 | 100% | 0.27 | 0.01 |  
